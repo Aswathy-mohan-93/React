@@ -1,0 +1,65 @@
+.card-details {
+  display: flex;
+  align-items: center;
+  border: 3px solid rebeccapurple;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .card-details {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .card-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-details {
+    margin-top: 20px;
+  }
+
+  .card-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card-content {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-details {
+    margin-top: 20px;
+  }
+
+  .card-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card-content {
+    padding: 12px;
+  }
+}
