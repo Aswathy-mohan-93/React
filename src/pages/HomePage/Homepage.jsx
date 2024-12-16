@@ -1,8 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import ItemDetails from "../ItemDetails/ItemDetails";
+import { useLocation } from "react-router-dom";
 import '../HomePage/Homepage.css';
 
 const Homepage = () => {
@@ -127,9 +126,7 @@ const Homepage = () => {
           </div>
         </div>
       )}
-      <Routes>
-        <Route path="/userDetails/:data" element={<ItemDetails />} />
-      </Routes>
+      
     </div>
   );
 };
